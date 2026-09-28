@@ -1,0 +1,102 @@
+# Customer Sales & Analytics
+
+## Overview
+
+This project focuses on analyzing customer sales data to understand revenue performance, purchasing behavior, seasonal trends, and key business performance drivers.
+
+The analysis transforms sales data into actionable business insights related to revenue, purchases, discounts, customer behavior, and category performance.
+
+## Objectives
+
+- Analyze overall sales and revenue performance
+- Understand customer purchasing behavior
+- Identify revenue trends
+- Analyze sales performance across categories
+- Evaluate the impact of discounts
+- Identify seasonal sales patterns
+- Identify key factors influencing business performance
+- Develop data-driven recommendations
+
+## Key Performance Metrics
+
+| Metric | Value |
+|---|---:|
+| Total Revenue | $165K |
+| Total Purchases | 3,960 |
+| Average Rating | 3.77 |
+| Total Discounts | $29K |
+
+## Analysis Areas
+
+### 1. Revenue Analysis
+
+The project analyzes revenue trends to understand business performance over time and identify important changes in sales.
+
+### 2. Category Performance
+
+Sales performance is analyzed across different product categories to understand their contribution to overall business performance.
+
+### 3. Customer Behavior
+
+The analysis examines customer purchasing behavior and identifies important purchasing patterns and customer-related performance indicators.
+
+### 4. Seasonal Sales Analysis
+
+Seasonal trends are analyzed to identify periods of stronger and weaker sales performance.
+
+### 5. Discount Analysis
+
+The project examines discounts and their relationship with sales performance to support better revenue optimization and discount decisions.
+
+## Key Business Insights
+
+The analysis focuses on:
+
+- Revenue performance
+- Customer purchasing patterns
+- Category-level sales performance
+- Seasonal sales trends
+- Discount effectiveness
+- Customer acquisition
+- Revenue optimization
+
+## Dashboard
+
+The project includes an interactive dashboard for visualizing important sales and customer analytics.
+
+### Dashboard Preview
+
+![Customer Sales & Analytics Dashboard](dashboard/dashboard-preview.png)
+
+## Report
+
+The detailed analysis, findings, and recommendations are available in:
+
+`report/Customer-Sales-Analytics-Report.pdf`
+
+## Business Recommendations
+
+The analysis provides recommendations related to:
+
+- Customer acquisition
+- Revenue optimization
+- Discount strategy
+- Sales performance improvement
+- Seasonal planning
+
+## Project Structure
+
+```text
+02-Customer-Sales-Analytics/
+│
+├── README.md
+│
+├── dataset/
+│   └── customer-sales-data.csv
+│
+├── dashboard/
+│   ├── Customer-Sales-Analytics-Dashboard.xlsx
+│   └── dashboard-preview.png
+│
+└── report/
+    └── Customer-Sales-Analytics-Report.pdf
