@@ -27,7 +27,6 @@ Built a comprehensive HR Analytics dashboard to analyze employee attrition patte
 - Standardized column names and data types.
 - Encoded categorical variables (Department, Education Field, Job Role).
 - Created computed columns for `Attrition Rate` and `Salary Bands`.
-- Generated custom dark-mode background with radial neon-glow effect using Python (Pillow).
 
 ## 📁 Dataset
 - **Source:** [Kaggle - IBM HR Analytics Employee Attrition](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
