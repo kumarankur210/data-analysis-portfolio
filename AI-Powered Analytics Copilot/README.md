@@ -34,5 +34,4 @@ docs/       data dictionary, interview story, commit roadmap
 4. Funnel & Experiment Analysis
 5. AI / Risk Insights
 
-## Portfolio integrity
-This is a personal portfolio project using synthetic data and should be described as such in interviews.
+
