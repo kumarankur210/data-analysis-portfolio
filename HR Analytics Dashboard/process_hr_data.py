@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 def clean_hr_data():
-    base_dir = r"c:\Users\parag\Music\Data analyst projects\HR Analytics Dashboard"
+base_dir = r"C:\Users\kumar\OneDrive\Desktop\data-analysis-portfolio\HR Analytics Dashboard"
     source_file = os.path.join(base_dir, "WA_Fn-UseC_-HR-Employee-Attrition.csv")
     dest_file = os.path.join(base_dir, "HR_Data_cleaned.csv")
     
