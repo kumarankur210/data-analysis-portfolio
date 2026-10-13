@@ -105,6 +105,15 @@ An interactive Power BI dashboard exploring workforce data and HR metrics to sup
 \[View Project](./HR%20Analytics%20Dashboard/)
 
 
+8. AI-Powered Analytics Copilot
+
+An e-commerce analytics project exploring how SQL, Python, Power BI, and AI-assisted insights can work together to support business analysis and decision-making.
+
+Focus Areas: E-commerce analytics, data quality, customer insights, analytical queries, and AI-assisted reporting.
+
+
+
+
 
 \## Analytical Approach
 
