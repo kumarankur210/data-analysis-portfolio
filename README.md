@@ -1,164 +1,148 @@
-# Data Analysis Portfolio
-
-A portfolio of data analysis projects focused on transforming raw datasets
-into meaningful business insights through data analysis, interactive
-dashboards, and analytical reports.
-
-## Projects
-
-### 01. Customer Segmentation Analysis
-
-An analysis of customer characteristics and purchasing behavior to identify
-meaningful customer segments and understand customer value.
-
-**Key Areas:**
-- Demographic Segmentation
-- Behavioral Segmentation
-- Value-Based Segmentation
-- Lifecycle Segmentation
-- RFM Analysis
-- Customer Value Analysis
-- Customer Retention Insights
-
-**Project Contents:**
-- Dataset
-- Interactive Dashboard
-- Analytical Report
-
-[View Project →](./01-Customer-Segmentation/)
+\# Ankur Kumar | Data Analytics Portfolio
 
 
----
 
-### 02. Customer Sales & Analytics
-
-An analysis of customer sales and e-commerce performance to understand
-revenue trends, category performance, customer behavior, and seasonal
-patterns.
-
-**Key Areas:**
-- Revenue Analysis
-- Sales by Category
-- Customer Behavior
-- Conversion Funnel
-- Traffic Sources
-- Seasonal Sales Performance
-- Discount Analysis
-- Revenue Optimization
-
-**Key Metrics:**
-- Total Revenue
-- Average Rating
-- Total Purchases
-- Total Discounts
-- Category Revenue
-- Seasonal Revenue
-
-**Project Contents:**
-- Dataset
-- Interactive Dashboard
-- Analytical Report
-
-[View Project →](./02-Customer-Sales-Analytics/)
+Welcome to my data analytics portfolio. This repository brings together projects in SQL, Excel, Power BI, and data warehousing.
 
 
----
 
-### 03. Credit Card Fraud Analysis
-
-An analysis of transaction data to explore transaction amounts, category
-patterns, state-level trends, merchant activity, and date/time patterns
-related to fraud analysis.
-
-**Key Areas:**
-- Fraud Transaction Analysis
-- Transaction Amount Analysis
-- Category-wise Analysis
-- State-wise Analysis
-- Merchant Analysis
-- Date & Time Analysis
-- Risk Pattern Analysis
-
-**Dashboard Includes:**
-- Total Loss Value
-- Primary Category
-- Top State Loss
-- Peak Risk Window
-- Category-wise Amount
-- State-wise Amount
-- Merchant-wise Amount
-- Date & Time-wise Amount
-- Fraud Transaction Filter
-
-**Project Contents:**
-- Dataset
-- Interactive Dashboard
-- Analytical Report
-
-[View Project →](./03-Credit-Card-Fraud-Analysis/)
+My goal is to use data analysis to answer business questions, identify trends, and communicate insights that support better decisions.
 
 
----
 
-# Tools & Skills
+\## Skills \& Tools
 
-## Data Analysis
-- Data Cleaning
-- Exploratory Data Analysis
-- Data Aggregation
-- KPI Analysis
-- Trend Analysis
-- Customer Analysis
-- Sales Analysis
-- Fraud Analysis
 
-## Data Visualization
-- Interactive Dashboards
-- Pivot Tables
-- Pivot Charts
-- KPI Cards
-- Bar Charts
-- Line Charts
-- Area Charts
-- Time-Series Analysis
 
-## Business Analytics
-- Customer Segmentation
-- RFM Analysis
-- Revenue Analysis
-- Customer Behavior Analysis
-- Sales Performance Analysis
-- Fraud Pattern Analysis
-- Business Insights
+\- \*\*SQL:\*\* Joins, aggregations, CTEs, subqueries, and analytical queries
 
-## Tools
-- Microsoft Excel
-- Git
-- GitHub
+\- \*\*Excel:\*\* Data cleaning, PivotTables, and dashboard creation
 
----
+\- \*\*Power BI:\*\* Interactive dashboards, KPIs, and DAX
 
-# Repository Structure
+\- \*\*Python:\*\* Pandas, NumPy, Matplotlib, and Seaborn
 
-```text
-data-analysis-portfolio/
-│
-├── README.md
-│
-├── 01-Customer-Segmentation/
-│   ├── README.md
-│   ├── dataset/
-│   ├── dashboard/
-│   └── report/
-│
-├── 02-Customer-Sales-Analytics/
-│   ├── README.md
-│   ├── dataset/
-│   ├── dashboard/
-│   └── report/
-│
-└── 03-Credit-Card-Fraud-Analysis/
-    ├── README.md
-    ├── dataset/
-    ├── dashboard/
-    └── report/
+\- \*\*Data Warehousing:\*\* ETL concepts, dimensional modeling, and star schemas
+
+
+
+\## Projects
+
+
+
+\### 1. SQL Data Analytics Project
+
+Exploring structured data and answering analytical questions using SQL.
+
+
+
+\[View Project](./sql-data-analytics-project/)
+
+
+
+\### 2. SQL Data Warehouse Project
+
+Practicing ETL workflows, dimensional modeling, and analytical data preparation.
+
+
+
+\[View Project](./sql-data-warehouse-project/)
+
+
+
+\### 3. Superstore Sales \& Profitability Dashboard
+
+An interactive Power BI dashboard for exploring retail sales, profit, product categories, and regional performance.
+
+
+
+\[View Project](./superstore-sales-dashboard/)
+
+
+
+\### 4. Credit Card Fraud Analysis
+
+A data analysis project focused on exploring credit card transaction data and investigating fraud-related patterns.
+
+
+
+\[View Project](./Credit%20Card%20Fraud%20Analysis/)
+
+
+
+\### 5. Customer Sales Analysis
+
+A project focused on exploring customer sales data, identifying trends, and analyzing sales performance.
+
+
+
+\[View Project](./Customer%20Sales%20Analysis/)
+
+
+
+\### 6. Customer Segmentation
+
+A project focused on analyzing customer characteristics and exploring customer segments to support business decisions.
+
+
+
+\[View Project](./Customer%20Segmentation/)
+
+
+
+\### 7. HR Analytics Dashboard
+
+
+
+An interactive Power BI dashboard exploring workforce data and HR metrics to support data-driven HR decisions.
+
+
+
+\*\*Tools:\*\* Power BI, Python, Pandas, CSV.
+
+
+
+\[View Project](./HR%20Analytics%20Dashboard/)
+
+
+
+\## Analytical Approach
+
+
+
+1\. Understand the business problem.
+
+2\. Inspect and validate the data.
+
+3\. Clean and transform the dataset where necessary.
+
+4\. Analyze data using suitable tools.
+
+5\. Communicate verified findings and recommendations.
+
+
+
+\## Currently Learning
+
+
+
+\- Advanced SQL for analytics
+
+\- Python exploratory data analysis
+
+\- Business intelligence and dashboard design
+
+\- Data engineering fundamentals
+
+
+
+\## About Me
+
+
+
+I am an Information Technology graduate interested in Data Analyst and Data Engineering opportunities. I enjoy solving analytical problems and building projects that connect technical skills with business questions.
+
+
+
+\*\*GitHub:\*\* \[kumarankur210](https://github.com/kumarankur210)
+
