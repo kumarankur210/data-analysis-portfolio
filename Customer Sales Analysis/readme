@@ -1,102 +1,36 @@
-# Customer Sales & Analytics
+# Customer Sales & Analytics (Excel)
 
 ## Overview
+An Excel dashboard analyzing 3,900 retail purchases to understand sales by category, season, subscription status, shipping type and discounts.
 
-This project focuses on analyzing customer sales data to understand revenue performance, purchasing behavior, seasonal trends, and key business performance drivers.
+## Dataset
+- 3,900 purchases (one row per customer ID), 18 attributes
+- Fields: Customer ID, Age, Gender, Item Purchased, Category, Purchase Amount (USD), Location, Size, Color, Season, Review Rating, Subscription Status, Shipping Type, Discount Applied, Promo Code Used, Previous Purchases, Payment Method, Frequency of Purchases
 
-The analysis transforms sales data into actionable business insights related to revenue, purchases, discounts, customer behavior, and category performance.
+## What is in the workbook
+- Sheets: Dashboard, vlookup, Pivot tables, data
+- 6 PivotTables, 10 charts and 2 slicers
+- INDEX-MATCH, VLOOKUP and SUMIF formulas
 
-## Objectives
+## Key metrics
+- Total sales: $233,081
+- Total purchases: 3,900
+- Average review rating: 3.75
+- Sales from discounted purchases: $99,411 (1,677 purchases, 43%)
 
-- Analyze overall sales and revenue performance
-- Understand customer purchasing behavior
-- Identify revenue trends
-- Analyze sales performance across categories
-- Evaluate the impact of discounts
-- Identify seasonal sales patterns
-- Identify key factors influencing business performance
-- Develop data-driven recommendations
+## Findings
+- Clothing is the top category at $104,264 (44.7% of sales), followed by Accessories ($74,200), Footwear ($36,093) and Outerwear ($18,524)
+- Sales are spread evenly across seasons (about 24-26% each)
+- Non-subscribers generate 73.1% of sales ($170,436)
+- Discounted and non-discounted purchases have similar average amounts ($59.28 vs $60.13)
 
-## Key Performance Metrics
+## Limits
+- No date field, so time trends cannot be analyzed
+- Discount is a Yes/No flag with no discount amount
 
-| Metric | Value |
-|---|---:|
-| Total Revenue | $165K |
-| Total Purchases | 3,960 |
-| Average Rating | 3.77 |
-| Total Discounts | $29K |
+## Files
+- Ecommerce data analysis.xlsx: data, pivot tables and dashboard
+- Ecom data analysis dashboard.png: dashboard preview
+- Customer-Sales-and-Analytics-Report-final.pdf: report (see note below)
 
-## Analysis Areas
-
-### 1. Revenue Analysis
-
-The project analyzes revenue trends to understand business performance over time and identify important changes in sales.
-
-### 2. Category Performance
-
-Sales performance is analyzed across different product categories to understand their contribution to overall business performance.
-
-### 3. Customer Behavior
-
-The analysis examines customer purchasing behavior and identifies important purchasing patterns and customer-related performance indicators.
-
-### 4. Seasonal Sales Analysis
-
-Seasonal trends are analyzed to identify periods of stronger and weaker sales performance.
-
-### 5. Discount Analysis
-
-The project examines discounts and their relationship with sales performance to support better revenue optimization and discount decisions.
-
-## Key Business Insights
-
-The analysis focuses on:
-
-- Revenue performance
-- Customer purchasing patterns
-- Category-level sales performance
-- Seasonal sales trends
-- Discount effectiveness
-- Customer acquisition
-- Revenue optimization
-
-## Dashboard
-
-The project includes an interactive dashboard for visualizing important sales and customer analytics.
-
-### Dashboard Preview
-
-![Customer Sales & Analytics Dashboard](dashboard/dashboard-preview.png)
-
-## Report
-
-The detailed analysis, findings, and recommendations are available in:
-
-`report/Customer-Sales-Analytics-Report.pdf`
-
-## Business Recommendations
-
-The analysis provides recommendations related to:
-
-- Customer acquisition
-- Revenue optimization
-- Discount strategy
-- Sales performance improvement
-- Seasonal planning
-
-## Project Structure
-
-```text
-02-Customer-Sales-Analytics/
-│
-├── README.md
-│
-├── dataset/
-│   └── customer-sales-data.csv
-│
-├── dashboard/
-│   ├── Customer-Sales-Analytics-Dashboard.xlsx
-│   └── dashboard-preview.png
-│
-└── report/
-    └── Customer-Sales-Analytics-Report.pdf
+![Dashboard](Ecom%20data%20analysis%20dashboard.png)
