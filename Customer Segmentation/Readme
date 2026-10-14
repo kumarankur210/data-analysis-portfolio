@@ -1,125 +1,33 @@
-# Customer Segmentation Analysis
+# Customer Behavior & Segmentation Analysis (Excel)
 
 ## Overview
+An Excel dashboard that analyzes 5,630 e-commerce customers to understand behavior, satisfaction and churn, supported by a report on customer segmentation methods.
 
-This project focuses on analyzing customer characteristics and purchasing behavior to identify meaningful customer segments and support targeted marketing decisions.
+## Dataset
+- 5,630 unique customers, 20 attributes
+- Key fields: Churn, Tenure, PreferredLoginDevice, CityTier, PreferredPaymentMode, Gender, MaritalStatus, HourSpendOnApp, SatisfactionScore, Complain, OrderCount, DaySinceLastOrder, CashbackAmount
+- The workbook includes a Data Dict sheet describing each field
 
-The analysis explores four major approaches to customer segmentation:
+## What is in the workbook
+- Data: the customer dataset, with VLOOKUP and INDEX-MATCH helper columns
+- Pivot tables: 9 PivotTables (for example average tenure by city tier, satisfaction and churn, payment mode counts, complaints, cashback and days since last order)
+- Dashboard: 10 charts and 2 slicers
 
-- Demographic Segmentation
-- Behavioral Segmentation
-- Value-Based Segmentation
-- Lifecycle Segmentation
-
-It also uses the RFM framework to understand customer engagement and value.
-
-## Objectives
-
-- Understand customer characteristics and behavior
-- Identify meaningful customer segments
-- Analyze customer purchasing patterns
-- Identify high-value customers
-- Identify customers who may be at risk of becoming inactive
-- Support targeted marketing and retention strategies
-
-## Segmentation Methods
-
-### 1. Demographic Segmentation
-
-Customers are analyzed using characteristics such as:
-
-- Age
-- Gender
-- Income
-- Geographic location
-
-### 2. Behavioral Segmentation
-
-Behavioral segmentation focuses on how customers interact with a business.
-
-Key areas include:
-
-- Purchase frequency
-- Purchase recency
-- Channel preferences
-- Engagement patterns
-
-### 3. Value-Based Segmentation
-
-Customers are analyzed based on their value to the business.
-
-Key areas include:
-
-- Customer spending
-- Customer lifetime value
-- Profitability
-
-### 4. Lifecycle Segmentation
-
-Customers are categorized according to their relationship with the business, including:
-
-- New Customers
-- Loyal Customers
-- Champions
-- At-Risk Customers
-
-## RFM Analysis
-
-The project uses the RFM model to understand customer engagement and value.
-
-| Metric | Description |
-|---|---|
-| Recency | How recently a customer made a purchase |
-| Frequency | How often a customer makes purchases |
-| Monetary | How much a customer spends |
-
-RFM analysis helps identify customers based on their purchasing behavior and value.
-
-## Key Customer Segments
-
-### Champions
-
-Customers with high recency, frequency, and value.
-
-### Loyal Customers
-
-Consistent buyers with medium-to-high customer value.
-
-### At-Risk Customers
-
-Previously frequent and high-value customers whose activity is declining.
-
-### New Customers
-
-Recent first-time buyers with low purchase frequency.
-
-## Dashboard
-
-The project includes a dashboard for visualizing customer segmentation and related customer insights.
-
-### Dashboard Preview
-
-![Customer Segmentation Dashboard](dashboard/dashboard-preview.png)
+## Quick facts from the data
+- Churned customers: 948 of 5,630 (16.8%)
+- Customers who complained: 28.5%
+- Churn rate: 31.7% for customers who complained vs 10.9% for those who did not
 
 ## Report
+A 10-page report explains four customer segmentation methods (demographic, behavioral, value-based, lifecycle), the RFM model and recommended next steps for marketing and retention.
 
-The detailed analysis and recommendations are available in:
+## Notes and limits
+- The dataset has recency (DaySinceLastOrder) and frequency (OrderCount) fields but no order value, so a full RFM score is not calculated here.
+- Some fields contain missing values.
 
-`report/Customer-Segmentation-Report.pdf`
+## Files
+- customer segmentation data analysis.xlsx: workbook with data, pivot tables and dashboard
+- customer segmentation dashboard.png: dashboard preview
+- Customer-Segmentation-Report-final.pdf: segmentation report
 
-## Project Structure
-
-```text
-01-Customer-Segmentation/
-│
-├── README.md
-│
-├── dataset/
-│   └── customer-segmentation.csv
-│
-├── dashboard/
-│   ├── Customer-Segmentation-Dashboard.xlsx
-│   └── dashboard-preview.png
-│
-└── report/
-    └── Customer-Segmentation-Report.pdf
+![Dashboard](customer%20segmentation%20dashboard.png)
