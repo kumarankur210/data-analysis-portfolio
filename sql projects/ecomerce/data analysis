@@ -1,5 +1,5 @@
 An online outdoor-gear store, from 1 January 2024 to 30 September 2026. Customers in twelve countries buy tents, boots and backpacks through the web shop, the app, a marketplace and a physical store. Seven tables hold the whole order lifecycle: who bought, what was in the basket, how it was paid, when it shipped and what came back.
-
+https://www.kaggle.com/datasets/generaterealdata/synthetic-ecommerce-database
 Why this dataset
 Money adds up at every level: line total = quantity x price, order subtotal = sum of its lines, tax and total follow from it, and the payment equals the order total.
 Statuses agree across tables: a cancelled order has no shipment and a refunded or failed payment; a returned order has a refunded payment and its returns point at its own items.
