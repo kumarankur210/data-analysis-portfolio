@@ -1,0 +1,14 @@
+Food Delivery Customer Churn & Order Analytics —> 8,000 Customers
+What is this?
+A fully synthetic food-delivery app dataset with 8,000 customers and 30 clean features.
+Includes demographics, plan type, engagement metrics, delivery experience, support interactions, payments, and a clear binary churn target.
+
+Why should you use it?
+Clean, complete data — zero missing values
+Defined target — churned (1 = churned, 0 = retained)
+Realistic distributions — Indian market flavor (cities, UPI, cuisines, INR values)
+Multiple tasks — classification, regression, segmentation, feature importance, BI
+Universal appeal — food delivery is something almost everyone understands
+Current churn rate: 26.3%
+
+  https://www.kaggle.com/datasets/sometimessubodh/food-delivery-customer-churn
