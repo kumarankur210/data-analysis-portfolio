@@ -1,0 +1,51 @@
+# Student Dropout & Academic Success – SQL Data Analysis
+
+## Project Overview
+This project focuses on analyzing student academic performance and dropout patterns using SQL Server. The objective is to explore student data, identify trends associated with academic outcomes, and understand factors that may influence student dropout and academic success.
+
+The analysis uses a dataset of **12,000 student records** downloaded from Kaggle and imported into Microsoft SQL Server using Python, Pandas, and SQLAlchemy.
+
+## Dataset Source
+- **Dataset:** Student Dropout and Academic Success (12K)
+- **Platform:** Kaggle
+- **Dataset Link:** https://www.kaggle.com/datasets/vedauv/student-dropout-and-academic-success-12k
+- **Database:** Amazon
+- **SQL Table:** `dbo.student_dropout`
+- **Records:** 12,000
+
+## Project Objectives
+- Analyze student dropout and academic success patterns.
+- Explore student data and identify missing or duplicate records.
+- Examine academic performance and student characteristics.
+- Identify patterns and differences across student groups.
+- Generate insights that can support student retention strategies.
+
+## SQL Concepts & Techniques Used
+- Data exploration using SELECT, DISTINCT, TOP, and ORDER BY.
+- Data cleaning and quality checks.
+- Filtering using WHERE, BETWEEN, IN, and LIKE.
+- Aggregate functions: COUNT, SUM, AVG, MIN, and MAX.
+- GROUP BY and HAVING for grouped analysis.
+- Conditional analysis using CASE statements.
+- Subqueries for comparative analysis.
+- Window functions: ROW_NUMBER(), DENSE_RANK(), LAG(), and LEAD().
+- NULL handling using ISNULL() and COALESCE().
+- Indexing for query performance.
+- Transaction management using BEGIN TRANSACTION, COMMIT, and ROLLBACK.
+
+## Tools & Technologies
+- Microsoft SQL Server
+- SQL Server Management Studio (SSMS)
+- Python
+- Pandas
+- SQLAlchemy
+
+## Expected Business Insights
+The analysis aims to understand:
+- Student dropout distribution.
+- Academic performance patterns.
+- Differences in outcomes across student groups.
+- Characteristics associated with student dropout.
+- Potential areas where educational institutions could improve student retention.
+
+**Project Goal:** Demonstrate practical SQL skills through exploratory data analysis, data quality checks, aggregation, business analysis, and query optimization using a real-world-style student dataset.
